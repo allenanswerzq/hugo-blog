@@ -1,0 +1,6 @@
+[submodule "themes/blackburn"]
+	path = themes/blackburn
+	url = https://github.com/yoshiharuyamashita/blackburn.git
+[submodule "refs"]
+	path = refs
+	url = https://github.com/yoshiharuyamashita/yoshiharuyamashita.com.git
