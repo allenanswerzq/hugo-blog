@@ -12,7 +12,7 @@ cd public
 git add -A
 
 # Commit changes.
-msg="rebuilding site `date`"
+msg="Rebuild site"
 if [ $# -eq 1 ]
   then msg="$1"
 fi

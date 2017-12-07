@@ -1,6 +1,6 @@
-baseURL = "http://example.org/"
+baseURL = "https://qz517.github.io"
 languageCode = "en-us"
-title = "ZHANG_QIANG"
+title = "THeAnswer"
 theme = "blackburn"
 
 # Shown in the side menu
@@ -16,8 +16,8 @@ paginate = 5
 [params]
   # Shown in the home page
   subtitle = "Keep Calm And Try Coding"
-  googleAnalytics = "Your Google Analytics tracking ID"
-  disqus = "Your Disqus shortname"
+  googleAnalytics = "UA-110890888-1"
+  disqus = "qz517"
   # CSS name for highlight.js
   highlightjs = "androidstudio"
   highlightjs_extra_languages = ["yaml"]
