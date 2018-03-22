@@ -1,16 +1,6 @@
-+++
-date = "2017-12-07T20:55"
-draft = false
-title = "About"
-sidemenu = "true"
-+++
+---
+title: "About"
+date: 2017-12-07T21:38:53+08:00
+draft: false
+---
 
-## About me
-
-Hi there!
-
-My name is qz517.
-
-## About this site
-
-This is where I post articles and thoughts on anything that springs to mind.

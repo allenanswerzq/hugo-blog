@@ -1,9 +1,8 @@
-+++
-date = "2017-12-07T20:58Z"
-draft = false
-title = "Contact"
-sidemenu = "true"
-+++
+---
+title: "Contact"
+date: 2017-12-17T18:28:52+08:00
+draft: false
+---
 
 If you have any queries please contact me by <a href="mailto:qz517@protonmail.com">email</a>.
 
