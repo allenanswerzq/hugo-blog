@@ -1,76 +1,104 @@
-baseURL = "https://qz517.github.io"
-languageCode = "en-us"
-title = "THeAnswer"
-theme = "blackburn"
-
-# Shown in the side menu
-copyright = "&copy; 2017. All rights reserved."
+baseURL = "/"
+languageCode = "en"
+title = "Landcold7"
+theme = "hugo-nuo"
+enableRobotsTXT = true
+PygmentsCodeFences = true
 canonifyurls = true
-paginate = 5
 
+# Disqus Username
+# disqusShortname = "disqus_shortname"
 
-[indexes]
-  tag = "tags"
-  topic = "topics"
+# Google Analytics UA number
+# googleAnalytics = "UA-XXXXXXXX-X"
 
+# Copyright of your post
+copyright = "© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce."
+
+# Initial site menu, you can extend menu with content.
+[[menu.main]]
+  name = "Home"
+  weight = 10
+  identifier = "home"
+  url = "/"
+
+[[menu.main]]
+  name = "Works"
+  weight = 20
+  identifier = "works"
+  url = "https://github.com/landocold7"
+
+[[menu.main]]
+  name = "Tags"
+  weight = 30
+  identifier = "tags"
+  url = "/tags/"
+
+# Add your own params here
 [params]
-  # Shown in the home page
-  subtitle = "Keep Calm And Try Coding"
-  googleAnalytics = "UA-110890888-1"
-  disqus = "qz517"
-  # CSS name for highlight.js
-  highlightjs = "androidstudio"
-  highlightjs_extra_languages = ["yaml"]
-  dateFormat = "02 Jan 2006, 15:04"
-  # Include any custom CSS and/or JS files
-  # (relative to /static folder)
-  custom_css = ["css/my.css"]
-  custom_js = ["js/my.js"]
+  author = "landcold7"
+  bg = "images/grey-prism.svg"
+  avatar = "images/avatar.jpg"
+  seotitle = "Hugo Blog (SEO Version)"
+  subtitle = "~ Actions speak louder more than words ~"
+  description = "Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again."
+  paginate = 10
 
-[menu]
-  # Shown in the side menu.
-  [[menu.main]]
-    name = "Home"
-    pre = "<i class='fa fa-home fa-fw'></i>"
-    weight = 0
-    identifier = "home"
-    url = "/"
-  [[menu.main]]
-    name = "About"
-    pre = "<i class='fa fa-user fa-fw'></i>"
-    weight = 1
-    identifier = "about"
-    url = "/about/"
-  [[menu.main]]
-    name = "Posts"
-    pre = "<i class='fa fa-list fa-fw'></i>"
-    weight = 2
-    identifier = "post"
-    url = "/post/"
-  [[menu.main]]
-    name = "Topics"
-    pre = "<i class='fa fa-folder fa-fw'></i>"
-    weight = 3
-    identifier = "topic"
-    url = "/topics/"
-  [[menu.main]]
-    name = "Tags"
-    pre = "<i class='fa fa-tags fa-fw'></i>"
-    weight = 4
-    identifier = "tag"
-    url = "/tags/"
-  [[menu.main]]
-    name = "Contact"
-    pre = "<i class='fa fa-phone-square fa-fw'></i>"
-    weight = 5
-    identifier = "contact"
-    url = "/contact/"
+  # Choose your social networks
+  email = "name@domain.com"
+  github = "github_username"
+  twitter = "twitter_username"
+  linkedin = "linkedin_username"
+  weibo = "weibo_username"
+  wechat= "images/qrcode.jpg"  # Replace with your wechat qrcode image
+  # facebook = "facebook_username"
+  # google = "googlplus_id_number"
+  # instagram = "instagram_username"
+  # youtube = "youtube_username"
+  # vimeo = "vimeo_username"
+  # medium = "medium_username"
+  # quora = "quora_username"
+  # pinterest = "pinterest_username"
+  # dribbble = "dribbble_username"
+  # behance = "behance_username"
+  # jsfiddle = "jsfiddle_username"
+  # codepen = "codepen_username"
+  # zhihu = "zhihu_username"
+  # douban = "douban_username"
+  # bilibili = "bilibili_id_number"
+  # stackoverflow = "laozhu"
+  # codesandbox = "melaozhu"
+  # npm = "laozhu"
+  # reddit = "melaozhu"
 
-[social]
-  # Link your social networking accounts to the side menu
-  # by entering your username or ID.
+  # Changyan Comments (China Only)
+  changyan = false
+  changyanId = "cyt3toRiB"
+  changyanConf = "prod_0908b1cb9a581501753cce1ed074dbe3"
 
-  # SNS microblogging
-  twitter = "qzhang517"
-  github = "qz517"
-  stackoverflow = "*"
+  # Google Webmaster
+  # https://www.google.com/webmasters/
+  googleSiteVerification = "_moDmnnBNVLBN1rzNxyGUGdPHE20YgbmrtzLIbxaWFc"
+
+  # Bing Webmaster
+  # https://www.bing.com/toolbox/webmaster/
+  msValidate = "22596E34341DD1D17D6022C44647E587"
+
+  # Baidu Webmaster (China Only)
+  # https://zhanzhang.baidu.com/
+  # baiduSiteVerification = "MZ23SPxxfa"
+
+  # Sogou Webmaster (China Only)
+  # http://zhanzhang.sogou.com/
+  # sogouSiteVerification = "m2jktMQTZm"
+
+  # 360 Webmaster (China Only)
+  # http://zhanzhang.so.com/
+  # soSiteVerification = "b7ab3b4c2edbc856642004d1b8c27a91"
+
+  # Baidu Tongji (China Only)
+  # https://tongji.baidu.com/
+  # baiduTongji = "e21dc1e8a592188271b615159dc88af7"
+
+  # ICP Number (China Only)
+  # ICP = "苏ICP备16005986号-2"

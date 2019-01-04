@@ -1,6 +1,6 @@
 ---
 title: "Collection about Make"
-date: 2017-12-12T15:12:27+08:00
+date: 2017-06-12T15:12:27+08:00
 draft: false
 tags: ["make", "gnu", "linux"]
 topics: ["software"]
@@ -36,7 +36,7 @@ What @ - + means? [link](https://stackoverflow.com/questions/3477292/what-do-and
 
 String functions [link](https://www.gnu.org/software/make/manual/html_node/Text-Functions.html)
 
-Types of Prerequisites [link](https://www.gnu.org/software/make/manual/make.html#Prerequisite-Types)
+Types of Prerequisites(| symbol) [link](https://www.gnu.org/software/make/manual/make.html#Prerequisite-Types)
 
 Implicit Variable [link](https://www.gnu.org/software/make/manual/html_node/Implicit-Variables.html)
 
@@ -46,3 +46,4 @@ Static Pattern [link](https://www.gnu.org/software/make/manual/make.html#Static-
 
 Include [link](https://www.gnu.org/software/make/manual/html_node/Include.html)
 
+Substitution [link](https://www.gnu.org/software/make/manual/make.html#Substitution-Refs)

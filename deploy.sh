@@ -5,7 +5,10 @@ echo  "eploying updates to GitHub..."
 # Build the project.
 #hugo # if using a theme, replace by `hugo -t <yourtheme>`
 
-hugo -t blackburn
+# hugo -t hugo-xmin
+# hugo -t hugo-theme-cleanwhite
+hugo -t hugo-nuo
+
 # Go To Public folder
 cd public
 # Add changes to git.

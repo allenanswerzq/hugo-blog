@@ -1,0 +1,2 @@
+1. Change hugo-nuo theme background color and font color.
+2. Make a new svg background picture.

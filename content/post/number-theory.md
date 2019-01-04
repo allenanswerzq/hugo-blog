@@ -1,7 +1,7 @@
 ---
-title: "Number Theory"
-date: 2018-03-19T09:38:39+08:00
-draft: true
+title: "Number theory terms"
+date: 2018-11-19T09:38:39+08:00
+draft: false
 ---
 
 ### Some gloassaries of Number Theory
@@ -15,3 +15,4 @@ draft: true
 7. Sieve of Eratosthenes
 8. Prime factorization
 9. Euler's totient function 
+10. Permutation rank
