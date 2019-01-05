@@ -26,7 +26,7 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
   name = "Works"
   weight = 20
   identifier = "works"
-  url = "https://github.com/landocold7"
+  url = "https://github.com/landcold7"
 
 [[menu.main]]
   name = "Tags"
@@ -39,7 +39,7 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
   author = "landcold7"
   bg = "images/grey-prism.svg"
   avatar = "images/avatar.jpg"
-  seotitle = "Hugo Blog (SEO Version)"
+  seotitle = "Hugo Blog"
   subtitle = "~ Actions speak louder more than words ~"
   description = "Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again."
   paginate = 10
