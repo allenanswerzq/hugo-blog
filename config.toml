@@ -29,6 +29,12 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
   url = "https://github.com/landcold7"
 
 [[menu.main]]
+  name = "Life"
+  weight = 20
+  identifier = "life"
+  url = "/life"
+
+[[menu.main]]
   name = "Tags"
   weight = 30
   identifier = "tags"

@@ -6,4 +6,4 @@ asset="${file%\.md}-asset"
 echo $file $asset
 
 hugo new content/post/"$file"
-mkdir content/post/"$asset"
+mkdir content/media/posts/"$asset"
