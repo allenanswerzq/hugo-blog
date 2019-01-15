@@ -3,7 +3,7 @@ title: "Hdu 3038 How Many Answers Are Wrong"
 author: "landcold7"
 tags: ["algo", "union-find", "hdu"]
 date: 2019-01-15T22:10:15+08:00
-draft: true
+draft: false
 ---
 
 Hdu 3038 How Many Answers Are Wrong
