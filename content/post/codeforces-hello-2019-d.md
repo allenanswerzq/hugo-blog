@@ -52,4 +52,4 @@ In the first example, after one step, the number written on the blackboard is 11
 
 In the second example, the answer is equal to $ 1 \cdot \frac{9}{16}+2 \cdot \frac{3}{16}+3 \cdot \frac{3}{16}+6 \cdot \frac{1}{16}=\frac{15}{8} $
 
-{{% figure src="/media/posts/img/cf-hello-2019-d.jpeg"  title="cf-hello-2019-d" class="zoomable" %}}
+{{% figure src="/media/post/img/cf-hello-2019-d.jpeg"  title="cf-hello-2019-d" class="zoomable" height="600" %}}

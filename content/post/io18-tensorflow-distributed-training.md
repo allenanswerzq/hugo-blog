@@ -16,11 +16,11 @@ Timing is important for faster testing ideas, you can't wait for like a couple o
 
 For spliting like one big task into pieces for distributing, there must be some ways to split. In this trarning task, there are two ways to split one big problem into small part to train, one is called **Data parallelism** and the other one called **Model parallelism**.
 
-<div style="text-align:center"><img src ="/media/posts/img/io18.png" /></div>
+<div style="text-align:center"><img src ="/media/post/img/io18.png" /></div>
 
 Bascially what data parallelism does is that it splits the data into pieces and put one small pieces for one worker to train. And what model parallelism is that it splits one big model into pieces and use a small one to train for one worker. Woker here can specify many things, like devices cpu, cpu or gpu, also like cpu cores.
 
-<div style="text-align:center"><img src ="/media/posts/img/io18-model.png" /></div>
+<div style="text-align:center"><img src ="/media/post/img/io18-model.png" /></div>
 
 Since most machines have big amount of memory can hold most of the models, so this way is less common to use.
 
@@ -28,13 +28,13 @@ Since most machines have big amount of memory can hold most of the models, so th
 
 They introduced two approaches to update grandient in a dirstribute setup. First one is called **Async Parameter Server** and the other is called **Sync Allreduce Architecture**.
 
-<div style="text-align:center"><img src ="/media/posts/img/io18-aps.png" /></div>
+<div style="text-align:center"><img src ="/media/post/img/io18-aps.png" /></div>
 
 Here, in the picture above, the blue one denotes the parameter servers which are used for storing parameters, and all workers need to communicate with these servers to pull down parameters when every workers do their own training process and push parametes back to servers when their done its own training process. The grandients update step happens on parameter severs.
 
 The approach is suitable for multi-machine dirstributed training situation. The downside of this approach is like the talker said can delay the convergence.
 
-<div style="text-align:center"><img src ="/media/posts/img/io18-saa.png" /></div>
+<div style="text-align:center"><img src ="/media/post/img/io18-saa.png" /></div>
 
 The second approach doesnt have the special parameter servers, each woker has a copy of parameters. Each woker computed grandients and loss based one subset of training sample. Once the computation is done, there is process that need to synchronize all the parameters and update the parameters.
 

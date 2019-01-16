@@ -66,11 +66,11 @@ During an execution of DFS-VISIT(G, u), the loop on lines 4-7 executes |Adj[v]| 
 >   3. ___Forward edges___
 >   4. ___Cross edges___ 
 
-<div style="text-align:center"><img src ="/media/posts/img/dfs.png" /></div>
+<div style="text-align:center"><img src ="/media/post/img/dfs.png" /></div>
 
 <div style="text-align:center"><p>Depth-first search</p></div>
 
-<div style="text-align:center"><img src ="/media/posts/img/dfs-1.png" /></div>
+<div style="text-align:center"><img src ="/media/post/img/dfs-1.png" /></div>
 
 <div style="text-align:center"><p>Depth-first forest</p></div>
 
@@ -107,11 +107,11 @@ G and $G^T$ have exactly the same strongly connected components.
 
 Component Graph: $G^{SCC}=(V^{SCC},E^{SCC})$
 
-<div style="text-align:center"><img src ="/media/posts/img/dfs-2.png" /></div>
+<div style="text-align:center"><img src ="/media/post/img/dfs-2.png" /></div>
 
-<div style="text-align:center"><img src ="/media/posts/img/dfs-3.png" /></div>
+<div style="text-align:center"><img src ="/media/post/img/dfs-3.png" /></div>
 
-<div style="text-align:center"><img src ="/media/posts/img/dfs-4.png" /></div>
+<div style="text-align:center"><img src ="/media/post/img/dfs-4.png" /></div>
 
 **Lemmas**
 
@@ -138,7 +138,7 @@ Let G=(V,E) be a connected, undirected graph.
 > 2. Bridge: A edge whose removal will disconnect G
 > 3. Biconnected component: A **maxmial set of egdes** such that any two edges lie on a common simple cycle. An egde lies on a simple cycle means that this edge is a part of that cycle. 
 
-<div style="text-align:center"><img src ="/media/posts/img/dfs-5.png" /></div>
+<div style="text-align:center"><img src ="/media/post/img/dfs-5.png" /></div>
 
 A vertex is a Articulation point if:
 

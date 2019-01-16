@@ -20,9 +20,9 @@ We wish a data structure to support following operations:
 
 Determin the connected component of an undirected graph
 
-<div style="text-align:center"><img src ="/media/posts/img/disjoint.png" /></div>
+<div style="text-align:center"><img src ="/media/post/img/disjoint.png" /></div>
 
-<div style="text-align:center"><img src ="/media/posts/img/disjoint-1.png" /></div>
+<div style="text-align:center"><img src ="/media/post/img/disjoint-1.png" /></div>
 
 Algorithm
 
@@ -39,9 +39,9 @@ Connected-Components(G)
 
 Each object in the list contains a set member (number), a pointer to the next object in the list, and a pointer back to the set object (for finding the representative which is the first object's value in the list pointed by head pointer).
 
-<div style="text-align:center"><img src ="/media/posts/img/disjoint-2.png" /></div>
+<div style="text-align:center"><img src ="/media/post/img/disjoint-2.png" /></div>
 
-<div style="text-align:center"><img src ="/media/posts/img/disjoint-3.png" /></div>
+<div style="text-align:center"><img src ="/media/post/img/disjoint-3.png" /></div>
 
 Make-Set(x): O(1)
 
@@ -55,7 +55,7 @@ Constuct a sequence of n Make-Set operations followed by n-1 Union operations th
 
 The amortized time for each operation is Θ(n).
 
-<div style="text-align:center"><img src ="/media/posts/img/disjoint-4.png" /></div>
+<div style="text-align:center"><img src ="/media/post/img/disjoint-4.png" /></div>
 
 **A weighted-union:**
 
@@ -65,7 +65,7 @@ The above implementation of the Union procedure requires an average of Θ(n) tim
 
 We represent sets by rooted trees, with each node containing one member (number) and each tree representing one set.
 
-<div style="text-align:center"><img src ="/media/posts/img/disjoint-5.png" /></div>
+<div style="text-align:center"><img src ="/media/post/img/disjoint-5.png" /></div>
 
 Operations:
 

@@ -1,9 +1,10 @@
 #!/bin/bash
 
-file="$1"
+type="$1"
+file="$2"
 asset="${file%\.md}-asset"
 
-echo $file $asset
+echo $type $file $asset
 
-hugo new content/post/"$file"
-mkdir content/media/posts/"$asset"
+hugo new content/"$type"/"$file"
+mkdir -p content/media/"$type"/"$asset"

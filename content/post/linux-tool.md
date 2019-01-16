@@ -6,4 +6,4 @@ draft: false
 
 Found this nice picture online shows all kinds of commands of linux for performance test, should be useful. ;-)
 
-<div style="text-align:center"><img src ="/media/posts/img/linux.png" /></div>
+<div style="text-align:center"><img src ="/media/post/img/linux.png" /></div>

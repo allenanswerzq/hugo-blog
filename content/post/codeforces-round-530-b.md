@@ -18,19 +18,19 @@ In order to draw a segment, Sofia proceeds as follows. If she wants to draw a ve
 
 For example, if Sofia needs to draw one square, she will have to draw two segments using a ruler:
 
-![img](/media/posts/codeforces-round-530-b-asset/6828c65bae13ed02707cf640aefff2b431c2e421.png)
+![img](/media/post/codeforces-round-530-b-asset/6828c65bae13ed02707cf640aefff2b431c2e421.png)
 
 After that, she can draw the remaining two segments, using the first two as a guide:
 
-![img](/media/posts/codeforces-round-530-b-asset/67386c6f7dd570c81a116603e173d7b5690a61d2.png)
+![img](/media/post/codeforces-round-530-b-asset/67386c6f7dd570c81a116603e173d7b5690a61d2.png)
 
 If Sofia needs to draw two squares, she will have to draw three segments using a ruler:
 
-![img](/media/posts/codeforces-round-530-b-asset/87b87a98836e80eaf356df1ed07f694d8d0f4384.png)
+![img](/media/post/codeforces-round-530-b-asset/87b87a98836e80eaf356df1ed07f694d8d0f4384.png)
 
 After that, she can draw the remaining four segments, using the first three as a guide:
 
-![img](/media/posts/codeforces-round-530-b-asset/a87ef39735eb57801724db3d75ec5b0647e20986.png)
+![img](/media/post/codeforces-round-530-b-asset/a87ef39735eb57801724db3d75ec5b0647e20986.png)
 
 Sofia is in a hurry, so she wants to minimize the number of segments that she will have to draw with a ruler without a guide. Help her find this minimum number.
 
@@ -59,7 +59,7 @@ output
 4
 ```
 
-![img](/media/posts/codeforces-round-530-b-asset/solver.jpeg)
+{{% figure src="/media/post/codeforces-round-530-b-asset/solver.jpeg" class="zoomable" height="800" %}}
 
 ```c++
 #include <bits/stdc++.h>
