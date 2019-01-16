@@ -20,9 +20,9 @@ We wish a data structure to support following operations:
 
 Determin the connected component of an undirected graph
 
-<div style="text-align:center"><img src ="../img/disjoint.png" /></div>
+<div style="text-align:center"><img src ="/media/posts/img/disjoint.png" /></div>
 
-<div style="text-align:center"><img src ="../img/disjoint-1.png" /></div>
+<div style="text-align:center"><img src ="/media/posts/img/disjoint-1.png" /></div>
 
 Algorithm
 
@@ -39,9 +39,9 @@ Connected-Components(G)
 
 Each object in the list contains a set member (number), a pointer to the next object in the list, and a pointer back to the set object (for finding the representative which is the first object's value in the list pointed by head pointer).
 
-<div style="text-align:center"><img src ="../img/disjoint-2.png" /></div>
+<div style="text-align:center"><img src ="/media/posts/img/disjoint-2.png" /></div>
 
-<div style="text-align:center"><img src ="../img/disjoint-3.png" /></div>
+<div style="text-align:center"><img src ="/media/posts/img/disjoint-3.png" /></div>
 
 Make-Set(x): O(1)
 
@@ -49,13 +49,13 @@ Find-Set(x): O(1)
 
 **Simple Union(x,y):**
 
-We perform Union(x,y) by appending y's list onto the end of x's list. the representative of x's list becomes the respresentative of the resulting set. We have to update the pointer to the set object for each object originally on y's list, which take time linear in the length of y's list. 
+We perform Union(x,y) by appending y's list onto the end of x's list. the representative of x's list becomes the respresentative of the resulting set. We have to update the pointer to the set object for each object originally on y's list, which take time linear in the length of y's list.
 
 Constuct a sequence of n Make-Set operations followed by n-1 Union operations that requires Θ(n) time.
 
 The amortized time for each operation is Θ(n).
 
-<div style="text-align:center"><img src ="../img/disjoint-4.png" /></div>
+<div style="text-align:center"><img src ="/media/posts/img/disjoint-4.png" /></div>
 
 **A weighted-union:**
 
@@ -65,12 +65,12 @@ The above implementation of the Union procedure requires an average of Θ(n) tim
 
 We represent sets by rooted trees, with each node containing one member (number) and each tree representing one set.
 
-<div style="text-align:center"><img src ="../img/disjoint-5.png" /></div>
+<div style="text-align:center"><img src ="/media/posts/img/disjoint-5.png" /></div>
 
 Operations:
 
 > 1. Make-Set(x) simply creates a tree with just one node
-> 2. Find-Set(x) following x's parent pointer until we find the root of the tree 
+> 2. Find-Set(x) following x's parent pointer until we find the root of the tree
 > 3. Union(x, y) causes the root of one tree point to the root of other
 
 If no any changes, we have not improved on the linked-list implementation, because a sequence of Union operations may create a tree that is jsut a linear chain of n nodes which means the Find-Set operation needs linear time.
@@ -89,15 +89,15 @@ Make-Set(x)
 
 Union(x, y)
 1 Link(Find-Set(x), Find-Set(y))
-    
+
 Link(x,y)
 1 if x.rank > y.rank	// union by rank
 2   y.parent = x
-3 else 
+3 else
 4   x.parent = y
 5 if x.rank == y.rank
 6   y.rank = y.rank+1
-    
+
 Find-Set(x)
 1 if x≠x.parent
 2   x.parent = Find-Set(x.parent) // path compression

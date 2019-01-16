@@ -23,58 +23,37 @@ Output
 For each case, print the case number in a single line. Then print **q** lines, one for each query, each containing the minimum total earning when one travels from junction **1** (the zero point) to the given junction. However, for the queries that gives total earning less than **3**, or if the destination is not reachable from the zero point, then print a **'?'**.
 
 Sample Input
+```
+2
+5
+6 7 8 9 10
+6
+1 2
+2 3
+3 4
+1 5
+5 4
+4 5
+2
+4
+5
 
-> 2
-
-> 5
->
-> 6 7 8 9 10
->
-> 6
->
-> 1 2
-
-> 2 3
->
-> 3 4
->
-> 1 5
->
-> 5 4
->
-> 4 5
->
-> 2
->
-> 4
->
-> 5
->
->
->
-> 2
->
-> 10 10
->
-> 1
->
-> 1 2
->
-> 1
->
-> 2
+2
+10 10
+1
+1 2
+1
+2
+```
 
 Sample Output
-
-> Case 1:
->
-> 3
->
-> 4
->
-> Case 2:
->
-> ?
+```
+Case 1:
+3
+4
+Case 2:
+?
+```
 
 ```c++
 // #include <bits/stdc++.h>
@@ -214,7 +193,7 @@ int cube(int u, int v) {
     return (y - x) * (y - x) * (y - x);
 }
 
-void solve_spfa(int tt) {
+void read() {
     cin >> n;
     fori (i, 1, n + 1) {
         cin >> busy[i];
@@ -228,6 +207,10 @@ void solve_spfa(int tt) {
         edges[i] = e;
         head[u] = i;
     }
+}
+
+void solve_spfa(int tt) {
+    read();
 
     spfa();
 
@@ -244,19 +227,7 @@ void solve_spfa(int tt) {
 }
 
 void solve_bellman_ford(int tt) {
-    cin >> n;
-    fori (i, 1, n + 1) {
-        cin >> busy[i];
-    }
-
-    cin >> m;
-    mst(head, -1);
-    fori (i, 0, m) {
-        int u, v; cin >> u >> v;
-        Edge e = {u, v, cube(u, v), head[u]};
-        edges[i] = e;
-        head[u] = i;
-    }
+    read();
 
 // The dijkstra algorithm can't handle the negative weight, spfa also can
 // handle the negative weight and also can check the graph connectivity.

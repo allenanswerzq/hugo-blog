@@ -13,7 +13,7 @@ So i was always curious about the cpu cache stuff, how they really work? what ar
 
 Here a nice picture will show the internal structure of the one cpu core memory and caches, for multiple cpu cores the structure is a little different.
 
-<div style="text-align:center"><img src ="../img/image.png" /></div>
+<div style="text-align:center"><img src ="/media/posts/img/image.png" /></div>
 
 We can clearly see that between the cpu and the main memory there are three level caches exist, and there have the wire connection between any two adjacent levels. It means there can have data transformation between each other. Also the more darker green color means more slower speed access to it from cpu. So L1 level is the fastest cache. The difference here for L1 cache is that it splits the data and instruction cache, and other level caches dont distinguish them.
 
@@ -73,7 +73,7 @@ gettimeofday(&end, NULL);
 usec = usec_diff(&start, &end);
 ```
 
-<div style="text-align:center"><img src ="../img/image-1.png" /></div>
+<div style="text-align:center"><img src ="/media/posts/img/image-1.png" /></div>
 
 Check the size of one cache chunk (cache line):
 

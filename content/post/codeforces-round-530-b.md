@@ -10,7 +10,7 @@ Codeforces round #530 b problem
 
 <!--more-->
 
-B. Squares and Segments
+**B. Squares and Segments**
 
 Little Sofia is in fourth grade. Today in the geometry lesson she learned about segments and squares. On the way home, she decided to draw 𝑛n squares in the snow with a side length of $ 1 $. For simplicity, we assume that Sofia lives on a plane and can draw only segments of length $ 1 $, parallel to the coordinate axes, with vertices at integer points.
 
@@ -18,57 +18,48 @@ In order to draw a segment, Sofia proceeds as follows. If she wants to draw a ve
 
 For example, if Sofia needs to draw one square, she will have to draw two segments using a ruler:
 
-![img](../codeforces-round-530-b-asset/6828c65bae13ed02707cf640aefff2b431c2e421.png)
+![img](/media/posts/codeforces-round-530-b-asset/6828c65bae13ed02707cf640aefff2b431c2e421.png)
 
 After that, she can draw the remaining two segments, using the first two as a guide:
 
-![img](../codeforces-round-530-b-asset/67386c6f7dd570c81a116603e173d7b5690a61d2.png)
+![img](/media/posts/codeforces-round-530-b-asset/67386c6f7dd570c81a116603e173d7b5690a61d2.png)
 
 If Sofia needs to draw two squares, she will have to draw three segments using a ruler:
 
-![img](../codeforces-round-530-b-asset/87b87a98836e80eaf356df1ed07f694d8d0f4384.png)
+![img](/media/posts/codeforces-round-530-b-asset/87b87a98836e80eaf356df1ed07f694d8d0f4384.png)
 
 After that, she can draw the remaining four segments, using the first three as a guide:
 
-![img](../codeforces-round-530-b-asset/a87ef39735eb57801724db3d75ec5b0647e20986.png)
+![img](/media/posts/codeforces-round-530-b-asset/a87ef39735eb57801724db3d75ec5b0647e20986.png)
 
 Sofia is in a hurry, so she wants to minimize the number of segments that she will have to draw with a ruler without a guide. Help her find this minimum number.
 
-Input
+**Input**
 
 The only line of input contains a single integer $ n $ $ 1 \le n \le 10^{9} $, the number of squares that Sofia wants to draw.
 
-Output
+**Output**
 
 Print single integer, the minimum number of segments that Sofia will have to draw with a ruler without a guide in order to draw 𝑛n squares in the manner described above.
 
-Examples
+**Examples**
 
+```
 input
-
-> 1
-
+1
 output
-
-> 2
-
+2
 input
-
-> 2
-
+2
 output
-
-> 3
-
+3
 input
-
-> 4
-
+4
 output
+4
+```
 
-> 4
-
-![img](../codeforces-round-530-b-asset/solver.jpeg)
+![img](/media/posts/codeforces-round-530-b-asset/solver.jpeg)
 
 ```c++
 #include <bits/stdc++.h>

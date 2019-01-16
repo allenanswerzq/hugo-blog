@@ -10,7 +10,7 @@ Codeforces Hello 2019 D problem
 
 <!--more-->
 
-D. Makoto and a Blackboard
+**D. Makoto and a Blackboard**
 
 
 Makoto has a big blackboard with a positive integer $ n $ written on it. He will perform the following action exactly 𝑘k times:
@@ -21,39 +21,30 @@ He now wonders what is the expected value of the number written on the blackboar
 
 It can be shown that this value can be represented as $ \frac{P}{Q} $ where $ P $ and $ Q $ are coprime integers and $ Q \not\equiv 0 \pmod{10^9+7} $. Print the value of $ P \cdot Q^{-1} $ modulo $ 10^9+7 $.
 
-Input
+**Input**
 
 The only line of the input contains two integers $ n $ and $ k $ ($ \leq n \leq 10^{15} $, $ 1 \leq k \leq 10^4 $).
 
-Output
+**Output**
 
 Print a single integer — the expected value of the number on the blackboard after 𝑘k steps as $ P \cdot Q^{-1} \pmod{10^9+7} $ defined above.
 
-Examples
+**Examples**
 
+```
 input
-
-> 6 1
-
+6 1
 output
-
-> 3
-
+3
 input
-
-> 6 2
-
+6 2
 output
-
-> 875000008
-
+875000008
 input
-
-> 60 5
-
+60 5
 output
-
-> 237178099
+237178099
+```
 
 Note
 
@@ -61,4 +52,4 @@ In the first example, after one step, the number written on the blackboard is 11
 
 In the second example, the answer is equal to $ 1 \cdot \frac{9}{16}+2 \cdot \frac{3}{16}+3 \cdot \frac{3}{16}+6 \cdot \frac{1}{16}=\frac{15}{8} $
 
-{{% figure src="../img/cf-hello-2019-d.jpeg"  title="cf-hello-2019-d" class="zoomable" %}}
+{{% figure src="/media/posts/img/cf-hello-2019-d.jpeg"  title="cf-hello-2019-d" class="zoomable" %}}

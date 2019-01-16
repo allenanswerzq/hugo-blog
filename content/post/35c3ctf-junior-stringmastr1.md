@@ -24,7 +24,7 @@ Difficulty estimate: Medium
 
 Here the vulnerability is that bound checking is weak, it's only checked the case that *index* is greater or equal to 0, but ignore the case that for a string, the *index* must also less than its size, thus causes the leak of the *stack*, so we can rewrite the return address of *play* function using *swap* and *replace* funtions to execute a shell. And the fix should be easy as only as we checking the lower and higher bound for *index*, this vlunerability will be gone.
 
-{{% figure src="../35c3ctf-junior-stringmastr1-asset/vuln.png"  title="vulnerability" class="zoomable" %}}
+{{% figure src="/media/posts/35c3ctf-junior-stringmastr1-asset/vuln.png"  title="vulnerability" class="zoomable" %}}
 
 
 

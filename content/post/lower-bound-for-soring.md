@@ -12,7 +12,7 @@ In a comparions sort, we perform one of the tests In a comparison sort, we perfr
 
 We can view comparison sort abstractly in terms of decision trees, A decision tree is a full binary tree that represents the comparions between elements that are performed by a particular sorting algorithm on an input of a given size. 
 
-<div style="text-align:center"><img src ="../img/decision.png" /></div>
+<div style="text-align:center"><img src ="/media/posts/img/decision.png" /></div>
 
 Because any correct sorting algorithm must be able to produce each permutation of its input, each of the n! permutations on n elements must appear as one of the leaves of the decision tree for a comparison sort to be correct. Futhermore, each of these leaves must be reachable from the root by a downward path corresponding to an actual execution of the comparison sort. Thus, we shall condsider only decision trees in which each permutation apperas as a reachable leaf.
 
