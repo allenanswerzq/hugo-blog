@@ -32,7 +32,7 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
   name = "Life"
   weight = 20
   identifier = "life"
-  url = "/life"
+  url = "/life/"
 
 [[menu.main]]
   name = "Tags"
